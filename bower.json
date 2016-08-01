@@ -1,0 +1,17 @@
+{
+    "name": "backbone-prototype-compatibility",
+    "homepage": "https://github.com/DasRed/js-backbone-prototype-compatibility",
+    "main": "",
+    "license": "MIT",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "backbone": "1.*",
+        "lodash": "4.*"
+    }
+}
