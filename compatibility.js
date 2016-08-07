@@ -7,10 +7,10 @@
         });
 
     } else if (typeof exports !== 'undefined') {
-        factory(Backbone, lodash);
+        factory(root.Backbone, root.lodash);
 
     } else {
-        Backbone.compatibility = factory(Backbone, lodash);
+        root.Backbone.compatibility = factory(root.Backbone, root.lodash);
     }
 }(this, function (Backbone, lodash) {
     var cache = {};
