@@ -158,8 +158,8 @@
     /**
      * makes the object to backbone compatible
      *
-     * @param {Object} ObjectConstructor
-     * @returns {Object}
+     * @param {Function} ObjectConstructor
+     * @returns {Function|{extend: Function}}
      */
     function compatibility(ObjectConstructor) {
         ObjectConstructor.extend                = extend;
