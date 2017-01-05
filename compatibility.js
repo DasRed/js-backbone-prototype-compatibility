@@ -159,9 +159,10 @@
      * makes the object to backbone compatible
      *
      * @param {Function} ObjectConstructor
-     * @returns {Function|{extend: Function}}
+     * @returns {Function|{extend: Function, compatibility: Function}}
      */
     function compatibility(ObjectConstructor) {
+        ObjectConstructor.compatibility         = compatibility;
         ObjectConstructor.extend                = extend;
         ObjectConstructor.prototype.constructor = ObjectConstructor;
 
