@@ -7,10 +7,10 @@
         });
 
     } else if (typeof exports !== 'undefined') {
-        factory(root.Backbone, root.lodash);
+        factory(root.Backbone, root.lodash || root._);
 
     } else {
-        root.Backbone.compatibility = factory(root.Backbone, root.lodash);
+        root.Backbone.compatibility = factory(root.Backbone, root.lodash || root._);
     }
 }(this, function (Backbone, lodash) {
     var cache = {};
