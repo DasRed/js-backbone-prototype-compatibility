@@ -9,6 +9,7 @@ This function allows your own prototypes to interact correctly with backbone by 
 ## Install
 ```
 bower install backbone-prototype-compatibility --save
+bower install backbone-prototype-compatibility --save
 ```
 
 ## Usage

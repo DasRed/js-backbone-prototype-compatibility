@@ -1,0 +1,20 @@
+{
+  "name": "backbone-prototype-compatibility",
+  "version": "1.0.5",
+  "description": "Enables Prototyping Handling for Javascript for the Backbone Classes.",
+  "main": "compatibility.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DasRed/js-backbone-prototype-compatibility.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DasRed/js-backbone-prototype-compatibility/issues"
+  },
+  "homepage": "https://github.com/DasRed/js-backbone-prototype-compatibility#readme",
+  "dependencies": {
+      "lodash": "^4.14.1",
+      "backbone": "^1.3.3"
+  }
+}
